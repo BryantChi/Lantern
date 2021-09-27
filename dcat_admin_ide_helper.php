@@ -32,12 +32,14 @@ namespace Dcat\Admin {
      * @property Grid\Column|Collection role_id
      * @property Grid\Column|Collection permission_id
      * @property Grid\Column|Collection templeName
+     * @property Grid\Column|Collection temple_cover_photo
      * @property Grid\Column|Collection adddress
      * @property Grid\Column|Collection city
      * @property Grid\Column|Collection district
      * @property Grid\Column|Collection trownship
      * @property Grid\Column|Collection contact_person
      * @property Grid\Column|Collection introduce
+     * @property Grid\Column|Collection temple_other_photo
      * @property Grid\Column|Collection version
      * @property Grid\Column|Collection is_enabled
      * @property Grid\Column|Collection slug
@@ -59,6 +61,7 @@ namespace Dcat\Admin {
      * @property Grid\Column|Collection http_method
      * @property Grid\Column|Collection http_path
      * @property Grid\Column|Collection value
+     * @property Grid\Column|Collection content
      * @property Grid\Column|Collection user_id
      *
      * @method Grid\Column|Collection id(string $label = null)
@@ -82,12 +85,14 @@ namespace Dcat\Admin {
      * @method Grid\Column|Collection role_id(string $label = null)
      * @method Grid\Column|Collection permission_id(string $label = null)
      * @method Grid\Column|Collection templeName(string $label = null)
+     * @method Grid\Column|Collection temple_cover_photo(string $label = null)
      * @method Grid\Column|Collection adddress(string $label = null)
      * @method Grid\Column|Collection city(string $label = null)
      * @method Grid\Column|Collection district(string $label = null)
      * @method Grid\Column|Collection trownship(string $label = null)
      * @method Grid\Column|Collection contact_person(string $label = null)
      * @method Grid\Column|Collection introduce(string $label = null)
+     * @method Grid\Column|Collection temple_other_photo(string $label = null)
      * @method Grid\Column|Collection version(string $label = null)
      * @method Grid\Column|Collection is_enabled(string $label = null)
      * @method Grid\Column|Collection slug(string $label = null)
@@ -109,6 +114,7 @@ namespace Dcat\Admin {
      * @method Grid\Column|Collection http_method(string $label = null)
      * @method Grid\Column|Collection http_path(string $label = null)
      * @method Grid\Column|Collection value(string $label = null)
+     * @method Grid\Column|Collection content(string $label = null)
      * @method Grid\Column|Collection user_id(string $label = null)
      */
     class Grid {}
@@ -137,12 +143,14 @@ namespace Dcat\Admin {
      * @property Show\Field|Collection role_id
      * @property Show\Field|Collection permission_id
      * @property Show\Field|Collection templeName
+     * @property Show\Field|Collection temple_cover_photo
      * @property Show\Field|Collection adddress
      * @property Show\Field|Collection city
      * @property Show\Field|Collection district
      * @property Show\Field|Collection trownship
      * @property Show\Field|Collection contact_person
      * @property Show\Field|Collection introduce
+     * @property Show\Field|Collection temple_other_photo
      * @property Show\Field|Collection version
      * @property Show\Field|Collection is_enabled
      * @property Show\Field|Collection slug
@@ -164,6 +172,7 @@ namespace Dcat\Admin {
      * @property Show\Field|Collection http_method
      * @property Show\Field|Collection http_path
      * @property Show\Field|Collection value
+     * @property Show\Field|Collection content
      * @property Show\Field|Collection user_id
      *
      * @method Show\Field|Collection id(string $label = null)
@@ -187,12 +196,14 @@ namespace Dcat\Admin {
      * @method Show\Field|Collection role_id(string $label = null)
      * @method Show\Field|Collection permission_id(string $label = null)
      * @method Show\Field|Collection templeName(string $label = null)
+     * @method Show\Field|Collection temple_cover_photo(string $label = null)
      * @method Show\Field|Collection adddress(string $label = null)
      * @method Show\Field|Collection city(string $label = null)
      * @method Show\Field|Collection district(string $label = null)
      * @method Show\Field|Collection trownship(string $label = null)
      * @method Show\Field|Collection contact_person(string $label = null)
      * @method Show\Field|Collection introduce(string $label = null)
+     * @method Show\Field|Collection temple_other_photo(string $label = null)
      * @method Show\Field|Collection version(string $label = null)
      * @method Show\Field|Collection is_enabled(string $label = null)
      * @method Show\Field|Collection slug(string $label = null)
@@ -214,6 +225,7 @@ namespace Dcat\Admin {
      * @method Show\Field|Collection http_method(string $label = null)
      * @method Show\Field|Collection http_path(string $label = null)
      * @method Show\Field|Collection value(string $label = null)
+     * @method Show\Field|Collection content(string $label = null)
      * @method Show\Field|Collection user_id(string $label = null)
      */
     class Show {}

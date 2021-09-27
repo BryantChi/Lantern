@@ -2,17 +2,21 @@
 <div class="slider-area position-relative">
     <div class="slider-active dot-style">
         <!-- Single Slider -->
-        <div class=" hero-overly slider-height slider-bg1 d-flex align-items-center">
+        <div class=" hero-overly slider-height slider-bg1 d-flex">
+            {{-- align-items-center --}}
             <div class="container">
                 <div class="row">
                     <div class="col-xxl-6 col-xl-7 col-lg-7 col-md-8 col-sm-10">
-                        <div class="hero-caption" style="">
-                            <h1 data-animation="fadeInUp" data-delay=".2s" style="color: #fff82d;font-family:標楷體;">招財進寶&nbsp;定我財寶</h1>
+                        <div class="hero-caption pt-5" style="">
+                            {{-- <h1 data-animation="fadeInUp" data-delay=".2s" style="color: #fff82d;font-family:標楷體;">招財進寶&nbsp;定我財寶</h1>
                             <h3 data-animation="fadeInUp" data-delay=".4s" style="color: rgb(57, 201, 57);font-family:標楷體;">定 財 金 環 保 金 紙</h3>
-                            <h2 data-animation="fadeInUp" data-delay=".5s" style="color: rgb(252, 237, 32);font-family:標楷體;">沒錢要求財 - 有錢要定財</h2>
+                            <h2 data-animation="fadeInUp" data-delay=".5s" style="color: rgb(252, 237, 32);font-family:標楷體;">沒錢要求財 - 有錢要定財</h2> --}}
                             {{-- <a href="#" class="btn hero-btn"  data-animation="fadeInUp" data-delay=".8s">Active Cases</a> --}}
+                            <img src="{{ url('images/hero_txt.png') }}" class="img-responsive"
+                                style="max-width: 100%">
                         </div>
                     </div>
+
                 </div>
             </div>
         </div>

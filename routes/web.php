@@ -26,3 +26,22 @@ Route::any('/clear-cache', function () {
     return "All Cache is cleared";
 });
 
+Route::get('/about', function () {
+    return view('about');
+});
+
+Route::get('/contact', function () {
+    return view('contact');
+});
+
+Route::get('/temple', function () {
+    return view('temple');
+});
+
+Route::get('/rich_gold', function () {
+    return view('rich_gold');
+});
+
+Route::get('/certificate', function () {
+    return view('certificate');
+});

@@ -1,7 +1,7 @@
 <header>
     <div class="header-area">
         <div class="main-header ">
-            <div class="header-top d-none d-sm-block">
+            {{-- <div class="header-top d-none d-sm-block">
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-xl-12">
@@ -24,14 +24,15 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> --}}
             <div class="header-bottom  header-sticky">
                 <div class="container-fluid">
                     <div class="row align-items-center">
                         <!-- Logo -->
                         <div class="col-xl-2 col-lg-2">
                             <div class="logo">
-                                <a href="{{ url('/') }}"><img src="assets/img/logo/logo.png" alt=""></a>
+                                {{-- <a href="{{ url('/') }}"><img src="assets/img/logo/logo.png" alt=""></a> --}}
+                                <a href="{{ url('/') }}"><h4 style="color: #fdfdfd;">定財金燈</h4></a>
                             </div>
                         </div>
                         <div class="col-xl-10 col-lg-10">
@@ -40,8 +41,8 @@
                                 <nav>
                                     <ul id="navigation">
                                         <li><a href="{{ url('/') }}">首頁</a></li>
-                                        <li><a href="#">線上點燈</a></li>
-                                        <li><a href="#support-company-area">關於我們</a></li>
+                                        <li><a href="{{ url('/about') }}">關於我們</a></li>
+                                        <li style="{{ request()->is('/') ? '' : 'display: none;' }}"><a href="#lunar-area">農民曆</a></li>
                                         {{-- <li><a href="blog.html">Blog</a>
                                             <ul class="submenu">
                                                 <li><a href="blog.html">Blog</a></li>
@@ -49,8 +50,9 @@
                                                 <li><a href="elements.html">Elements</a></li>
                                             </ul>
                                         </li> --}}
-                                        <li><a href="#">寺廟介紹</a></li>
-                                        <li><a href="#">聯絡我們</a></li>
+                                        <li><a href="{{ url('/certificate') }}">專利證書</a></li>
+                                        <li><a href="{{ url('/temple') }}">廟宇介紹</a></li>
+                                        <li><a href="{{ url('/contact') }}">聯絡我們</a></li>
                                         {{-- <li>
                                             <div class="header-right-btn f-right  ml-15">
                                                 <a href="login.html" class="header-btn">Donate Now</a>

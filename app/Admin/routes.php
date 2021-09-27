@@ -23,4 +23,6 @@ Route::group([
 
     $router->resource('lighterinfo', LighterInfoController::class);
 
+    $router->resource('aboutusinfo', AboutUsInfoController::class);
+
 });

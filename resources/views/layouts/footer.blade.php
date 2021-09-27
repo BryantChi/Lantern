@@ -1,6 +1,6 @@
 <footer>
     <div class="footer-wrapper">
-        <div class="footer-area footer-padding">
+        {{-- <div class="footer-area footer-padding">
             <div class="container">
                 <div class="row justify-content-between">
                     <div class="col-xl-3 col-lg-3 col-md-6 col-sm-8">
@@ -79,7 +79,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> --}}
         <!-- footer-bottom area -->
         <div class="footer-bottom-area">
             <div class="container">
@@ -87,7 +87,9 @@
                     <div class="row">
                         <div class="col-xl-12 ">
                             <div class="footer-copy-right text-center">
-                                <p>Copyright ©2020 All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i>  by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
+                                <p>Copyright &copy;
+                                    <script>document.write(new Date().getFullYear());</script> 定財金燈國際股份有限公司｜<a
+                                        href="mailto:bryantchi.work@gmail.com">Designed by MStudio_Bryant</a></p>
                             </div>
                         </div>
                     </div>
