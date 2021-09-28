@@ -3401,7 +3401,8 @@ hr {
 }
 
 .slider-bg4 {
-    background-image: url(../img/hero/IMG_7544.JPG)
+    background-image: url(../img/hero/IMG_7544.JPG);
+    background-position: center;
 }
 
 .slider-bg5 {
@@ -5877,7 +5878,9 @@ hr {
 .contact-title {
     font-size: 27px;
     font-weight: 600;
-    margin-bottom: 20px
+    margin-bottom: 20px;
+    background: #301a22;
+    color: #fde943;
 }
 
 .form-contact label {

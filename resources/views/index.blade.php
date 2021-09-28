@@ -145,8 +145,7 @@
                             <div class="wrap-wrapper" style="background-color: #fde943;">
                                 <div class="properties-caption">
                                     <h3><a href="{{ url('/rich_gold') }}">定財金</a></h3>
-                                    <p>Sedac odio aliquet, fringilla odio eget, tincidunt nunc duis aliquet pulvinar ante.
-                                    </p>
+
                                 </div>
                                 <div class="properties-footer d-flex justify-content-between align-items-center">
                                     <div class="class-day">
@@ -188,8 +187,7 @@
                             <div class="wrap-wrapper" style="background-color: #fde943;">
                                 <div class="properties-caption">
                                     <h3><a href="#">定財金燈</a></h3>
-                                    <p>Sedac odio aliquet, fringilla odio eget, tincidunt nunc duis aliquet pulvinar ante.
-                                    </p>
+
                                 </div>
                                 <div class="properties-footer d-flex justify-content-between align-items-center">
                                     <div class="class-day">
@@ -231,8 +229,7 @@
                             <div class="wrap-wrapper" style="background-color: #fde943;">
                                 <div class="properties-caption">
                                 <h3><a href="{{ url('/temple') }}">廟宇介紹</a></h3>
-                                    <p>Sedac odio aliquet, fringilla odio eget, tincidunt nunc duis aliquet pulvinar ante.
-                                    </p>
+
                                 </div>
                                 <div class="properties-footer d-flex justify-content-between align-items-center">
                                     <div class="class-day">

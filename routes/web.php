@@ -34,9 +34,7 @@ Route::get('/contact', function () {
     return view('contact');
 });
 
-Route::get('/temple', function () {
-    return view('temple');
-});
+Route::any('/temple', 'TempleInfoController@temple');
 
 Route::get('/rich_gold', function () {
     return view('rich_gold');
