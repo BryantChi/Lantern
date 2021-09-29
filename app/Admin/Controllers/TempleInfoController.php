@@ -29,9 +29,9 @@ class TempleInfoController extends AdminController
             $grid->column('temple_cover_photo');
             $grid->column('adddress');
             $grid->column('city');
-            $grid->column('district')->hide();
             $grid->column('trownship', __('區/鄉鎮'));
             $grid->column('phone');
+            $grid->column('facebook');
             $grid->column('contact_person');
             $grid->column('introduce');
             $grid->column('temple_other_photo')->hide();
@@ -60,9 +60,9 @@ class TempleInfoController extends AdminController
             $show->field('temple_cover_photo');
             $show->field('adddress');
             $show->field('city');
-            $show->field('district');
             $show->field('trownship');
             $show->field('phone');
+            $show->field('facebook');
             $show->field('contact_person');
             $show->field('introduce');
             $show->field('temple_other_photo');
@@ -84,9 +84,9 @@ class TempleInfoController extends AdminController
             $form->image('temple_cover_photo')->move('images/temple/'.date('Ym').'/frontCover')->uniqueName()->rules('mimes:jpg,jpeg,png,gif|nullable');
             $form->text('adddress')->required();
             $form->select('city')->options('/api/getCity')->load('trownship', '/api/getDistrict')->required();
-            // $form->select('district');
             $form->select('trownship', __('區/鄉鎮'))->required();
             $form->mobile('phone')->options(['mask' => '9999999999'])->required();
+            $form->url('facebook');
             $form->text('contact_person')->required();
             $form->editor('introduce')->options(['menubar' => false, 'toolbar' => ['code undo redo restoredraft | cut copy paste pastetext | forecolor backcolor bold italic underline strikethrough link anchor | alignleft aligncenter alignright alignjustify outdent indent | \
             styleselect formatselect fontselect fontsizeselect | bullist numlist | blockquote subscript superscript removeformat | \

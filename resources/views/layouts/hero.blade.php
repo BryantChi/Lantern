@@ -1,3 +1,15 @@
+<style>
+    .hero-txt {
+        max-width: 100%;
+    }
+
+    @media (max-width: 768px) {
+        .hero-txt {
+            max-width: 40vh;
+        }
+    }
+</style>
+
 <!-- slider Area Start-->
 <div class="slider-area position-relative">
     <div class="slider-active dot-style">
@@ -6,14 +18,13 @@
             {{-- align-items-center --}}
             <div class="container">
                 <div class="row">
-                    <div class="col-xxl-5 col-xl-6 col-lg-6 col-md-7 col-sm-9">
-                        <div class="hero-caption pt-3" style="">
+                    <div class="col-xxl-5 col-xl-6 col-lg-7 col-md-7 col-sm-9">
+                        <div class="hero-caption pt-4" style="">
                             {{-- <h1 data-animation="fadeInUp" data-delay=".2s" style="color: #fff82d;font-family:標楷體;">招財進寶&nbsp;定我財寶</h1>
                             <h3 data-animation="fadeInUp" data-delay=".4s" style="color: rgb(57, 201, 57);font-family:標楷體;">定 財 金 環 保 金 紙</h3>
                             <h2 data-animation="fadeInUp" data-delay=".5s" style="color: rgb(252, 237, 32);font-family:標楷體;">沒錢要求財 - 有錢要定財</h2> --}}
                             {{-- <a href="#" class="btn hero-btn"  data-animation="fadeInUp" data-delay=".8s">Active Cases</a> --}}
-                            <img src="{{ url('images/hero_txt2.png') }}" class="img-responsive"
-                                style="max-width: 100%">
+                            <img src="{{ url('images/hero_txt2.png') }}" class="img-responsive hero-txt">
                         </div>
                     </div>
 

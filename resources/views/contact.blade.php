@@ -45,7 +45,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <h2 class="contact-title">聯絡我們</h2>
+                        <h2 class="contact-title px-5">聯絡我們</h2>
                     </div>
                     <div class="col-lg-12 px-5">
                         <div class="media contact-info">

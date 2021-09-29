@@ -31,7 +31,7 @@
                 <div class="col-lg-12 col-md-12">
                     <div class="p-3">
                         <div class="text-center  pt-5">
-                            <h2>今日農民曆</h2>
+                            <h2 class="mx-auto" style="background: #fde943;width: 30vw;">今日農民曆</h2>
                         </div>
 
                         <div class="text-center row" id="lunar">
