@@ -2,8 +2,12 @@
     {{ $templeInfo->onEachSide(1)->links() }}
 </div>
 
+<div id="temple-container">
+
+</div>
+
 @foreach ($templeInfo as $item)
-<div class="col-lg-4 col-md-6 col-sm-6">
+<div class="col-lg-4 col-md-6 col-sm-6 temple-item">
     <!-- Single -->
     <div class="properties pb-30">
         <div class="properties-card">
@@ -11,7 +15,7 @@
                 <a href="#"><img src="{{ asset(($item->temple_cover_photo == '')?'https://luckylight.hinet.net/TempleLights/resources/zh/images/bg.jpg':'uploads/'.$item->temple_cover_photo) }}" alt=""></a>
                 {{-- images/default_temple.png --}}
             </div>
-            <div class="wrap-wrapper">
+            <div class="wrap-wrapper" style="background: #F5E8C7;">
                 <div class="properties-caption">
                     <h3><a href="#">{{ $item->templeName }}</a></h3>
                     <p>{{ $item->adddress }}</p>

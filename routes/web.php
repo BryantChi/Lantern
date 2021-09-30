@@ -35,6 +35,8 @@ Route::get('/contact', function () {
 });
 
 Route::any('/temple', 'TempleInfoController@temple');
+Route::any('/temple/getDistrict/{city}', 'TempleInfoController@getDistrict')->name('GetTempleDistrict');
+Route::any('/TempleSelectSearch', 'TempleInfoController@selectSearch')->name('TempleSelectSearch');
 
 Route::get('/rich_gold', function () {
     return view('rich_gold');
